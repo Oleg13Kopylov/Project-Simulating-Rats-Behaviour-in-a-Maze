@@ -963,6 +963,8 @@ public:
 #define research 1 // Используется в том случае, когда нужно найти
 // оптимальные вероятности применения дискретных операторов
 
+//#define test_other 2
+
     void write_real_experiment_results_to_one_vector() {
         for (auto &pair: rats_name_to_experiment_results) {
             vector<vector<string>> &vv = pair.second;
@@ -974,7 +976,7 @@ public:
                         // Здесь можно задавать ограничения на номер серии и номер эксперимента внутри серии.
                         // Это нужно для рассмотрения обучения грызуна на различных этапах:
                         // начальном, промежуточном и конечном.
-                        if (cur_session >= 10 && cur_trial >= 15) {
+                        if (cur_session >= 3 && cur_trial >= 20) {
                             vector_of_real_routes.push_back(cur_route);
                         }
                     }
@@ -1456,8 +1458,8 @@ int main() {
     Maze maze = Maze();
 
     // Для проведения виртуальных экспериментов следует редактировать эти строчки
-    maze.typeOfMaze = type_of_maze::nikolskaya;
-    bool caffeine = false;
+    maze.typeOfMaze = type_of_maze::second_chelnok;
+    bool caffeine = true;
     //
 
     string str_for_fin;
@@ -1529,9 +1531,9 @@ int main() {
     maze.construct_map_from_name_to_operator();
     double delimiter = 100;
     roger.set_probabilities_of_relative_dirs(54 / delimiter, 20 / delimiter, 20 / delimiter, 6 / delimiter);
-    maze.set_probabilities_for_operators({0.0, 85 / delimiter, 0 / delimiter, 0 / delimiter,  15 /
+    maze.set_probabilities_for_operators({0.0,  17 / delimiter, 1 / delimiter, 41 / delimiter,  41 /
                                                                               delimiter});
-    maze.conduct_series_of_experiments_memorizing_routes(3, roger);
+    maze.conduct_series_of_experiments_memorizing_routes(3000, roger);
 #endif
     maze.print_statistical_data(out);
     out << "\n\n\n Печатаем реальные пути\n\n\n";
