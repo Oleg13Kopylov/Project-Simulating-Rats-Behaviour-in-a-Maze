@@ -1,199 +1,199 @@
-вЕКМНЙ
+п╖п╣п╩п╫п╬п╨
 mouse	session	trial	line
-RatG2b	1 1	  оьечнх╗оьеьоядюйкеьо╗хтжцггсищвчеььекчвфвчепьядй╗о+
-RatG2b	1 2	  ьлщбвнтудяьпечвфрысгжужъим+
-RatG2b	1 3	  сгжудяьпекйюдужцгсмырфвчепьо+
-RatG2b	1 4   ╗хтудя╗йюужгсм+
-RatG2b	1 5	  иилхкчвфрыилх╗о+
-RatG2b	1 6   ьоядужцгсм+
-RatG2b	1 7	  ырфвнтудужгсмисмсмищбфымилх╗о+
-RatG2b	1 8   оьпек╗оооьечвбфысгцъим+
+RatG2b	1 1	  п÷п╗п∙п╝п·п≤п│п÷п╗п∙п╗п÷п║п■п░п п⌡п∙п╗п÷п│п≤п╓п╕п⌠п≈п≈пёп≥п╜п╖п╝п∙п╗п╗п∙п⌡п╝п╖п√п╖п╝п∙п═п╗п║п■п п│п÷+
+RatG2b	1 2	  п╗п°п╜п▓п╖п·п╓п╔п■п║п╗п═п∙п╝п╖п√п╒п╘пёп≈п╕п╔п╕п╞п≥п²+
+RatG2b	1 3	  пёп≈п╕п╔п■п║п╗п═п∙п⌡п п░п■п╔п╕п⌠п≈пёп²п╘п╒п√п╖п╝п∙п═п╗п÷+
+RatG2b	1 4   п│п≤п╓п╔п■п║п│п п░п╔п╕п≈пёп²+
+RatG2b	1 5	  п≥п≥п°п≤п⌡п╝п╖п√п╒п╘п≥п°п≤п│п÷+
+RatG2b	1 6   п╗п÷п║п■п╔п╕п⌠п≈пёп²+
+RatG2b	1 7	  п╘п╒п√п╖п·п╓п╔п■п╔п╕п≈пёп²п≥пёп²пёп²п≥п╜п▓п√п╘п²п≥п°п≤п│п÷+
+RatG2b	1 8   п÷п╗п═п∙п⌡п│п÷п÷п÷п╗п∙п╝п╖п▓п√п╘пёп≈п⌠п╞п≥п²+
 
-RatS2b	1 1	  хкачвщъцжтх╗о+
-RatS2b	1 2	  ьек╗оьпечвфым+
-RatS2b	1 3	  смырфвчаеьоя╗хлъцгсмиъцжудюйкачнх╗о+
-RatS2b	1 4   ╗йюужцъим+
-RatS2b	1 5	  смимиъцгсмырфвчепьо+
-RatS2b	1 6   ╗хлим+
-RatS2b	1 7	  сгцжудядйхтжгъщбфвчепьо+
-RatS2b	1 8   ьпек╗оьо╗хтлим+
+RatS2b	1 1	  п≤п⌡п▒п╝п╖п╜п╞п⌠п╕п╓п≤п│п÷+
+RatS2b	1 2	  п╗п∙п⌡п│п÷п╗п═п∙п╝п╖п√п╘п²+
+RatS2b	1 3	  пёп²п╘п╒п√п╖п╝п▒п∙п╗п÷п║п│п≤п°п╞п⌠п≈пёп²п≥п╞п⌠п╕п╔п■п░п п⌡п▒п╝п·п≤п│п÷+
+RatS2b	1 4   п│п п░п╔п╕п⌠п╞п≥п²+
+RatS2b	1 5	  пёп²п≥п²п≥п╞п⌠п≈пёп²п╘п╒п√п╖п╝п∙п═п╗п÷+
+RatS2b	1 6   п│п≤п°п≥п²+
+RatS2b	1 7	  пёп≈п⌠п╕п╔п■п║п■п п≤п╓п╕п≈п╞п╜п▓п√п╖п╝п∙п═п╗п÷+
+RatS2b	1 8   п╗п═п∙п⌡п│п÷п╗п÷п│п≤п╓п°п≥п²+
 
-RatG2b	2 1	  чк╗о+
-RatG2b  2 2   ядюужгсм+
-RatG2b	2 3	  ыфщъцжуюдяо+
-RatG2b  2 4   ьекхлим+
-RatG2b	2 5   смырфвчаеьо+
+RatG2b	2 1	  п╝п⌡п│п÷+
+RatG2b  2 2   п║п■п░п╔п╕п≈пёп²+
+RatG2b	2 3	  п╘п√п╜п╞п⌠п╕п╔п░п■п║п÷+
+RatG2b  2 4   п╗п∙п⌡п≤п°п≥п²+
+RatG2b	2 5   пёп²п╘п╒п√п╖п╝п▒п∙п╗п÷+
 
-RatG2b	3 1	  ядужгсм+
-RatG2b	3 2	  смиъцжудяо+
+RatG2b	3 1	  п║п■п╔п╕п≈пёп²+
+RatG2b	3 2	  пёп²п≥п╞п⌠п╕п╔п■п║п÷+
 
-RatG2b	4 1	  ь╗кеьоядюужцгсм+
-RatG2b	4 2	  ыфвнх╗о+
-RatG2b  4 3   ╗ьечвфым+
-RatG2b	3 1	  ьеьо╗ояддяьо╗хлъим+
-RatG2b	3 2	  ыфвчеьо+
-RatG2b  3 3   ьеачвфым+
-RatG2b	3 4	  сгцжудяо+
-RatG2b	3 5	  ьпекйюдяоьечвфым+
-RatG2b	3 6	  иъцжуюдяо+
+RatG2b	4 1	  п╗п│п⌡п∙п╗п÷п║п■п░п╔п╕п⌠п≈пёп²+
+RatG2b	4 2	  п╘п√п╖п·п≤п│п÷+
+RatG2b  4 3   п│п╗п∙п╝п╖п√п╘п²+
+RatG2b	3 1	  п╗п∙п╗п÷п│п÷п║п■п■п║п╗п÷п│п≤п°п╞п≥п²+
+RatG2b	3 2	  п╘п√п╖п╝п∙п╗п÷+
+RatG2b  3 3   п╗п∙п▒п╝п╖п√п╘п²+
+RatG2b	3 4	  пёп≈п⌠п╕п╔п■п║п÷+
+RatG2b	3 5	  п╗п═п∙п⌡п п░п■п║п÷п╗п∙п╝п╖п√п╘п²+
+RatG2b	3 6	  п≥п╞п⌠п╕п╔п░п■п║п÷+
 
-RatS2b 2 1	х╗оьекх╗оььядю+
-RatS2b 2 2	ужгсмыфвчекйюйхнвфрымиъгсмилх╗оядюй╗о╗ка+
-RatS2b 2 3	чнтжуюдяо╗хнвфрымсгъимсмилх╗оядюйкаепьо╗хлимсырфвча+
-RatS2b 2 4	еьоядюужцгъгсмыилх╗оядюужгсмищб+
-RatS2b 2 5	вчкйюй╗о╗какйюужгсмилх╗оядю
+RatS2b 2 1	п≤п│п÷п╗п∙п⌡п≤п│п÷п╗п╗п║п■п░+
+RatS2b 2 2	п╔п╕п≈пёп²п╘п√п╖п╝п∙п⌡п п░п п≤п·п╖п√п╒п╘п²п≥п╞п≈пёп²п≥п°п≤п│п÷п║п■п░п п│п÷п│п⌡п▒+
+RatS2b 2 3	п╝п·п╓п╕п╔п░п■п║п÷п│п≤п·п╖п√п╒п╘п²пёп≈п╞п≥п²пёп²п≥п°п≤п│п÷п║п■п░п п⌡п▒п∙п═п╗п÷п│п≤п°п≥п²пёп╘п╒п√п╖п╝п▒+
+RatS2b 2 4	п∙п╗п÷п║п■п░п╔п╕п⌠п≈п╞п≈пёп²п╘п≥п°п≤п│п÷п║п■п░п╔п╕п≈пёп²п≥п╜п▓+
+RatS2b 2 5	п╖п╝п⌡п п░п п│п÷п│п⌡п▒п⌡п п░п╔п╕п≈пёп²п≥п°п≤п│п÷п║п■п░
 
-Gefest 1	1	хкачвфысгжтудяьпекхтжгсм+
-Gefest 1	2	ыфымимсгсырфвчепьо+
-Gefest 1	3   я╗йужгсырым+
-Gefest 1	4	имырымсгцълнтжцх╗ядужгсыфвчеьядюутнвфым+
-Gefest 1	5	сгцжуйкаеьядююужцълщфымсггжудядюутнвфымиъцжтуюдяьпеччк╗ьекйюутжцгсг
+Gefest 1	1	п≤п⌡п▒п╝п╖п√п╘пёп≈п╕п╓п╔п■п║п╗п═п∙п⌡п≤п╓п╕п≈пёп²+
+Gefest 1	2	п╘п√п╘п²п≥п²пёп≈пёп╘п╒п√п╖п╝п∙п═п╗п÷+
+Gefest 1	3   п║п│п п╔п╕п≈пёп╘п╒п╘п²+
+Gefest 1	4	п≥п²п╘п╒п╘п²пёп≈п⌠п╞п°п·п╓п╕п⌠п≤п│п║п■п╔п╕п≈пёп╘п√п╖п╝п∙п╗п║п■п░п╔п╓п·п╖п√п╘п²+
+Gefest 1	5	пёп≈п⌠п╕п╔п п⌡п▒п∙п╗п║п■п░п░п╔п╕п⌠п╞п°п╜п√п╘п²пёп≈п≈п╕п╔п■п║п■п░п╔п╓п·п╖п√п╘п²п≥п╞п⌠п╕п╓п╔п░п■п║п╗п═п∙п╝п╝п⌡п│п╗п∙п⌡п п░п╔п╓п╕п⌠п≈пёп≈
 
-RatG2b  5    1	нтнвфффыиъцгсилхлщвчеьо+
-RatG2b	5    2	ядужгсыфвчеь╗йюдя╗хлим+
-RatG2b	6    1  сгъимыфбвчеьо+
-RatG2b	6    2	ядюуйкчвщъццггсм+
-RatG2b	6    3  сгжудяьек╗о+
-RatG2b	6    4	╗ядюужгсыфвчеьяяядужцгсм+
-RatG2b	6    5	ищбвнххтуйдяьечнлисгцжудя╗хлимыры
+RatG2b  5    1	п·п╓п·п╖п√п√п√п╘п≥п╞п⌠п≈пёп≥п°п≤п°п╜п╖п╝п∙п╗п÷+
+RatG2b	5    2	п║п■п╔п╕п≈пёп╘п√п╖п╝п∙п╗п│п п░п■п║п│п≤п°п≥п²+
+RatG2b	6    1  пёп≈п╞п≥п²п╘п√п▓п╖п╝п∙п╗п÷+
+RatG2b	6    2	п║п■п░п╔п п⌡п╝п╖п╜п╞п⌠п⌠п≈п≈пёп²+
+RatG2b	6    3  пёп≈п╕п╔п■п║п╗п∙п⌡п│п÷+
+RatG2b	6    4	п│п║п■п░п╔п╕п≈пёп╘п√п╖п╝п∙п╗п║п║п║п■п╔п╕п⌠п≈пёп²+
+RatG2b	6    5	п≥п╜п▓п╖п·п≤п≤п╓п╔п п■п║п╗п∙п╝п·п°п≥пёп≈п⌠п╕п╔п■п║п│п≤п°п≥п²п╘п╒п╘
 
-RatS2b  3     1	тжгсырфвчек╗о+
-RatS2b  3     2	ьпечвбщъцжудяьпьо╗йюужгсм+
-RatS2b  3     2 исмсиъщвчеьеьоьечвфысгсмсгцжуюй╗хлъц
+RatS2b  3     1	п╓п╕п≈пёп╘п╒п√п╖п╝п∙п⌡п│п÷+
+RatS2b  3     2	п╗п═п∙п╝п╖п▓п╜п╞п⌠п╕п╔п■п║п╗п═п╗п÷п│п п░п╔п╕п≈пёп²+
+RatS2b  3     2 п≥пёп²пёп≥п╞п╜п╖п╝п∙п╗п∙п╗п÷п╗п∙п╝п╖п√п╘пёп≈пёп²пёп≈п⌠п╕п╔п░п п│п≤п°п╞п⌠
 
-RightBackLeg	1 1	нтжгссгжудя+
-RightBackLeg	1 2	ядуй╗яяьечвфщи+
-RightBackLeg	1 3 сгъиыфщъ
+RightBackLeg	1 1	п·п╓п╕п≈пёпёп≈п╕п╔п■п║+
+RightBackLeg	1 2	п║п■п╔п п│п║п║п╗п∙п╝п╖п√п╜п≥+
+RightBackLeg	1 3 пёп≈п╞п≥п╘п√п╜п╞
 
-RightBackLeg	2 1	жудя+
-RightBackLeg	2 2	╗кчвфы+
-RightBackLeg	2 3 сгсилх╗+
-RightBackLeg	2 4	ьекйдя╗ьечввщи+
-RightBackLeg	3 1	смыфвчвщъгълх╗о+
-RightBackLeg	3 2	ядудяоьекйхлим+
-RightBackLeg	3 3	сгжудяо+
-RightBackLeg	3 4	╗хлим+
-RightBackLeg	3 5	мыфвффыилх╗
-RightBackLeg	4 1 ядужгсм+
-RightBackLeg	4 2	илх╗о+
-RightBackLeg	4 3	яяоьечвфым+
-RightBackLeg	4 4	сгжудужгсмимилх╗о+
-RightBackLeg	4 5	яддяоьечвфым+
-RightBackLeg	4 6	илх╗о+
+RightBackLeg	2 1	п╕п╔п■п║+
+RightBackLeg	2 2	п│п⌡п╝п╖п√п╘+
+RightBackLeg	2 3 пёп≈пёп≥п°п≤п│+
+RightBackLeg	2 4	п╗п∙п⌡п п■п║п│п╗п∙п╝п╖п╖п╜п≥+
+RightBackLeg	3 1	пёп²п╘п√п╖п╝п╖п╜п╞п≈п╞п°п≤п│п÷+
+RightBackLeg	3 2	п║п■п╔п■п║п÷п╗п∙п⌡п п≤п°п≥п²+
+RightBackLeg	3 3	пёп≈п╕п╔п■п║п÷+
+RightBackLeg	3 4	п│п≤п°п≥п²+
+RightBackLeg	3 5	п²п╘п√п╖п√п√п╘п≥п°п≤п│
+RightBackLeg	4 1 п║п■п╔п╕п≈пёп²+
+RightBackLeg	4 2	п≥п°п≤п│п÷+
+RightBackLeg	4 3	п║п║п÷п╗п∙п╝п╖п√п╘п²+
+RightBackLeg	4 4	пёп≈п╕п╔п■п╔п╕п≈пёп²п≥п²п≥п°п≤п│п÷+
+RightBackLeg	4 5	п║п■п■п║п÷п╗п∙п╝п╖п√п╘п²+
+RightBackLeg	4 6	п≥п°п≤п│п÷+
 
-RightBackLeg	5 1	кчвщимсгсмилх╗о+
-RightBackLeg	5 2 ядужгсм+
-RightBackLeg	5 3	ыфвчеечвфыимсгжудяяо+
-RightBackLeg	5 4 ьечвфым+
-RightBackLeg	6 1	чакйюдяоьечвфымилх╗о╗о+
-RightBackLeg	6 2	ьечвфым+
-RightBackLeg	6 3	илх╗о+
-RightBackLeg	6 4	ьечвффщим+
-RightBackLeg	6 5	ыфбщлх╗о+
-RightBackLeg	6 6	ядужцгсм+
-RightBackLeg	6 7	ищбвчеьо╗хлим
-RightBackLeg    7 1	исгжудяо+
-RightBackLeg	7 2 ╗каечвфысгсм+
-RightBackLeg	7 3	ыымсгцжуддужгсмилх╗о+
-RightBackLeg	7 4 ььядйкачвбфым+
-RightBackLeg	7 5 ыфщъцжудяо+
-RightBackLeg	7 6	╗хлим+
-RightBackLeg	7 7	илх╗о+
-RightBackLeg	7 8 ╗хлим+
-RightBackLeg	7 9	илх╗о+
-RightBackLeg	7 10 ядужггсм+
-RightBackLeg	7 6	илх╗о+
+RightBackLeg	5 1	п⌡п╝п╖п╜п≥п²пёп≈пёп²п≥п°п≤п│п÷+
+RightBackLeg	5 2 п║п■п╔п╕п≈пёп²+
+RightBackLeg	5 3	п╘п√п╖п╝п∙п∙п╝п╖п√п╘п≥п²пёп≈п╕п╔п■п║п║п÷+
+RightBackLeg	5 4 п╗п∙п╝п╖п√п╘п²+
+RightBackLeg	6 1	п╝п▒п⌡п п░п■п║п÷п╗п∙п╝п╖п√п╘п²п≥п°п≤п│п÷п│п÷+
+RightBackLeg	6 2	п╗п∙п╝п╖п√п╘п²+
+RightBackLeg	6 3	п≥п°п≤п│п÷+
+RightBackLeg	6 4	п╗п∙п╝п╖п√п√п╜п≥п²+
+RightBackLeg	6 5	п╘п√п▓п╜п°п≤п│п÷+
+RightBackLeg	6 6	п║п■п╔п╕п⌠п≈пёп²+
+RightBackLeg	6 7	п≥п╜п▓п╖п╝п∙п╗п÷п│п≤п°п≥п²
+RightBackLeg    7 1	п≥пёп≈п╕п╔п■п║п÷+
+RightBackLeg	7 2 п│п⌡п▒п∙п╝п╖п√п╘пёп≈пёп²+
+RightBackLeg	7 3	п╘п╘п²пёп≈п⌠п╕п╔п■п■п╔п╕п≈пёп²п≥п°п≤п│п÷+
+RightBackLeg	7 4 п╗п╗п║п■п п⌡п▒п╝п╖п▓п√п╘п²+
+RightBackLeg	7 5 п╘п√п╜п╞п⌠п╕п╔п■п║п÷+
+RightBackLeg	7 6	п│п≤п°п≥п²+
+RightBackLeg	7 7	п≥п°п≤п│п÷+
+RightBackLeg	7 8 п│п≤п°п≥п²+
+RightBackLeg	7 9	п≥п°п≤п│п÷+
+RightBackLeg	7 10 п║п■п╔п╕п≈п≈пёп²+
+RightBackLeg	7 6	п≥п°п≤п│п÷+
 
-RightBackLeg	8 1	ь╗хлим+
-RightBackLeg	8 2	илх╗о+
-RightBackLeg	8 3	╗хлим+
-RightBackLeg	8 4	сгцжудяо+
-RightBackLeg	8 5	╗кхлим+
-RightBackLeg	8 6	илх╗о+
-RightBackLeg	8 7	╗хлим+
-RightBackLeg	8 8	сгцжудй╗о+
-RightBackLeg	8 9	╗хлим+
-RightBackLeg	8 10 ыфбвчак╗о+
+RightBackLeg	8 1	п╗п│п≤п°п≥п²+
+RightBackLeg	8 2	п≥п°п≤п│п÷+
+RightBackLeg	8 3	п│п≤п°п≥п²+
+RightBackLeg	8 4	пёп≈п⌠п╕п╔п■п║п÷+
+RightBackLeg	8 5	п│п⌡п≤п°п≥п²+
+RightBackLeg	8 6	п≥п°п≤п│п÷+
+RightBackLeg	8 7	п│п≤п°п≥п²+
+RightBackLeg	8 8	пёп≈п⌠п╕п╔п■п п│п÷+
+RightBackLeg	8 9	п│п≤п°п≥п²+
+RightBackLeg	8 10 п╘п√п▓п╖п╝п▒п⌡п│п÷+
 
-RightBackLeg	9 1	ядужгсм+
-RightBackLeg	9 2 илх╗о+
-RightBackLeg	9 3	╗хлим+
-RightBackLeg	9 4 ыфбвчеьо+
-RightBackLeg	9 5	╗хлим+
-RightBackLeg	9 6 сгцжтх╗о+
-RightBackLeg	9 7	╗хлим+
-RightBackLeg	9 8 чакйюдяоьечвфымилх╗олим+
+RightBackLeg	9 1	п║п■п╔п╕п≈пёп²+
+RightBackLeg	9 2 п≥п°п≤п│п÷+
+RightBackLeg	9 3	п│п≤п°п≥п²+
+RightBackLeg	9 4 п╘п√п▓п╖п╝п∙п╗п÷+
+RightBackLeg	9 5	п│п≤п°п≥п²+
+RightBackLeg	9 6 пёп≈п⌠п╕п╓п≤п│п÷+
+RightBackLeg	9 7	п│п≤п°п≥п²+
+RightBackLeg	9 8 п╝п▒п⌡п п░п■п║п÷п╗п∙п╝п╖п√п╘п²п≥п°п≤п│п÷п°п≥п²+
 
-RightBackLeg	10 1	илх╗о+
-RightBackLeg	10 2	╗хлим+
-RightBackLeg	10 3	сгцжудяо+
-RightBackLeg	10 4	╗кхлим+
-RightBackLeg	10 5	илх╗о+
-RightBackLeg	10 6	╗хлим+
-RightBackLeg	10 7	сгцжудй╗о+
-RightBackLeg	10 8	╗хлим+
-RightBackLeg	10 9	ыфбвчак╗о+
-RightBackLeg	10 10	ядужгсм+
-RightBackLeg	10 11	илх╗о+
-RightBackLeg	10 12	╗хлим+
-RightBackLeg	10 13	ыфбвчеьо+
-RightBackLeg	10 14	╗хлим+
-RightBackLeg	10 15   сгцжтх╗о+
-RightBackLeg	10 16	╗хлим+
+RightBackLeg	10 1	п≥п°п≤п│п÷+
+RightBackLeg	10 2	п│п≤п°п≥п²+
+RightBackLeg	10 3	пёп≈п⌠п╕п╔п■п║п÷+
+RightBackLeg	10 4	п│п⌡п≤п°п≥п²+
+RightBackLeg	10 5	п≥п°п≤п│п÷+
+RightBackLeg	10 6	п│п≤п°п≥п²+
+RightBackLeg	10 7	пёп≈п⌠п╕п╔п■п п│п÷+
+RightBackLeg	10 8	п│п≤п°п≥п²+
+RightBackLeg	10 9	п╘п√п▓п╖п╝п▒п⌡п│п÷+
+RightBackLeg	10 10	п║п■п╔п╕п≈пёп²+
+RightBackLeg	10 11	п≥п°п≤п│п÷+
+RightBackLeg	10 12	п│п≤п°п≥п²+
+RightBackLeg	10 13	п╘п√п▓п╖п╝п∙п╗п÷+
+RightBackLeg	10 14	п│п≤п°п≥п²+
+RightBackLeg	10 15   пёп≈п⌠п╕п╓п≤п│п÷+
+RightBackLeg	10 16	п│п≤п°п≥п²+
 
 
 
-RightBackLeg	11 1	чеьечвфым+
-RightBackLeg	11 2	илх╗о+
-RightBackLeg	11 3	ядужггъщфым+
-RightBackLeg	11 4    илх╗о+
-RightBackLeg    12 1	ядй╗оьечвфым+
-RightBackLeg	12 2	иъгсмилх╗о+
-RightBackLeg	12 3	ьекхлим+
-RightBackLeg	12 4	илх╗о+
-RightBackLeg	12 5	╗хлим+
-RightBackLeg	12 6    сгжудяо+
-RightBackLeg	12 7    ╗кеьо╗хлим+
-RightBackLeg	12 8    сгълхк
+RightBackLeg	11 1	п╝п∙п╗п∙п╝п╖п√п╘п²+
+RightBackLeg	11 2	п≥п°п≤п│п÷+
+RightBackLeg	11 3	п║п■п╔п╕п≈п≈п╞п╜п√п╘п²+
+RightBackLeg	11 4    п≥п°п≤п│п÷+
+RightBackLeg    12 1	п║п■п п│п÷п╗п∙п╝п╖п√п╘п²+
+RightBackLeg	12 2	п≥п╞п≈пёп²п≥п°п≤п│п÷+
+RightBackLeg	12 3	п╗п∙п⌡п≤п°п≥п²+
+RightBackLeg	12 4	п≥п°п≤п│п÷+
+RightBackLeg	12 5	п│п≤п°п≥п²+
+RightBackLeg	12 6    пёп≈п╕п╔п■п║п÷+
+RightBackLeg	12 7    п│п⌡п∙п╗п÷п│п≤п°п≥п²+
+RightBackLeg	12 8    пёп≈п╞п°п≤п⌡
 
-RightBackLeg	13 1	еьо+
-RightBackLeg	13 2	╗хлим+
-RightBackLeg	13 3	илх╗о╗хлиммсгжудяо+
-RightBackLeg	13 4	╗хлим+
-RightBackLeg	13 5    иъгсмилх╗о+
-RightBackLeg	13 6    ╗ьечвфым+
-RightBackLeg	13 7    илх╗о+
+RightBackLeg	13 1	п∙п╗п÷+
+RightBackLeg	13 2	п│п≤п°п≥п²+
+RightBackLeg	13 3	п≥п°п≤п│п÷п│п≤п°п≥п²п²пёп≈п╕п╔п■п║п÷+
+RightBackLeg	13 4	п│п≤п°п≥п²+
+RightBackLeg	13 5    п≥п╞п≈пёп²п≥п°п≤п│п÷+
+RightBackLeg	13 6    п│п╗п∙п╝п╖п√п╘п²+
+RightBackLeg	13 7    п≥п°п≤п│п÷+
 
-RightBackLeg	14 1	ядйхлим+
-RightBackLeg	14 2	ыфвчеьо+
-RightBackLeg	14 3	╗хлим+
-RightBackLeg	14 4	сгълх╗о+
-RightBackLeg	14 5    ьо╗хлим+
-RightBackLeg	14 6    илх╗о+
-RightBackLeg	14 7    ядужггсм+
-RightBackLeg	14 8    сгцъи
+RightBackLeg	14 1	п║п■п п≤п°п≥п²+
+RightBackLeg	14 2	п╘п√п╖п╝п∙п╗п÷+
+RightBackLeg	14 3	п│п≤п°п≥п²+
+RightBackLeg	14 4	пёп≈п╞п°п≤п│п÷+
+RightBackLeg	14 5    п╗п÷п│п≤п°п≥п²+
+RightBackLeg	14 6    п≥п°п≤п│п÷+
+RightBackLeg	14 7    п║п■п╔п╕п≈п≈пёп²+
+RightBackLeg	14 8    пёп≈п⌠п╞п≥
 
-RightBackLeg	15 1	мыфбвчеьо+
-RightBackLeg	15 2	╗хлим+
-RightBackLeg	15 3	сгцъжудяо+
-RightBackLeg	15 4	╗хлим+
-RightBackLeg	15 5	илх╗о+
-RightBackLeg	15 6    ядй╗ьечвфым+
-RightBackLeg	15 7    смилх╗о+
-RightBackLeg	15 8    ьоьечвфым+
+RightBackLeg	15 1	п²п╘п√п▓п╖п╝п∙п╗п÷+
+RightBackLeg	15 2	п│п≤п°п≥п²+
+RightBackLeg	15 3	пёп≈п⌠п╞п╕п╔п■п║п÷+
+RightBackLeg	15 4	п│п≤п°п≥п²+
+RightBackLeg	15 5	п≥п°п≤п│п÷+
+RightBackLeg	15 6    п║п■п п│п╗п∙п╝п╖п√п╘п²+
+RightBackLeg	15 7    пёп²п≥п°п≤п│п÷+
+RightBackLeg	15 8    п╗п÷п╗п∙п╝п╖п√п╘п²+
 
-RightBackLeg	16 1	иъгсмилх╗о+
-RightBackLeg	16 2	╗хлим+
-RightBackLeg	16 3	сгжудя╗о+
-RightBackLeg	16 4	ядя╗хлим+
-RightBackLeg	16 5    илх╗о╗хлхнчк╗о+
-RightBackLeg	16 6    ьечвфым+
+RightBackLeg	16 1	п≥п╞п≈пёп²п≥п°п≤п│п÷+
+RightBackLeg	16 2	п│п≤п°п≥п²+
+RightBackLeg	16 3	пёп≈п╕п╔п■п║п│п÷+
+RightBackLeg	16 4	п║п■п║п│п≤п°п≥п²+
+RightBackLeg	16 5    п≥п°п≤п│п÷п│п≤п°п≤п·п╝п⌡п│п÷+
+RightBackLeg	16 6    п╗п∙п╝п╖п√п╘п²+
 
-RightBackLeg	17 1	сгцжудяо+
-RightBackLeg	17 2	яо╗хлим+
-RightBackLeg	17 3	ыфвчеьо+
-RightBackLeg	17 4	╗хлим+
-RightBackLeg	17 5	имыфвчееьо+
-RightBackLeg	17 6    ╗хлим+
-RightBackLeg	17 7    иимилх╗о+
-RightBackLeg	17 8    ядй╗о+
+RightBackLeg	17 1	пёп≈п⌠п╕п╔п■п║п÷+
+RightBackLeg	17 2	п║п÷п│п≤п°п≥п²+
+RightBackLeg	17 3	п╘п√п╖п╝п∙п╗п÷+
+RightBackLeg	17 4	п│п≤п°п≥п²+
+RightBackLeg	17 5	п≥п²п╘п√п╖п╝п∙п∙п╗п÷+
+RightBackLeg	17 6    п│п≤п°п≥п²+
+RightBackLeg	17 7    п≥п≥п²п≥п°п≤п│п÷+
+RightBackLeg	17 8    п║п■п п│п÷+
