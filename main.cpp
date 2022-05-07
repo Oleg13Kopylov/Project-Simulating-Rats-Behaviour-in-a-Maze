@@ -1523,7 +1523,7 @@ int main() {
     Rat roger;
 
 #ifdef research
-    maze.set_optimal_probabilities(roger); // проверить эту функцию
+    maze.set_optimal_probabilities(roger);
 #endif
 #ifdef test_other
     maze.construct_map_from_name_to_operator();
