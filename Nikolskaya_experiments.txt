@@ -1,4 +1,4 @@
-seria 4-48-5
+Nikolskaya maze real routes
 mouse	session	trial	line
 H	1	1	ОМЭЯГЯЭМОЫОМЯЭЖЩУЗЯМИКАКЛЕР
 H	1	2	ОИКДСШЕЛИМЯГЗУЩТЖЭЯЭМОЫОИКДСШР
