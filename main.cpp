@@ -22,7 +22,7 @@
 using namespace std;
 
 bool Is_Russian_Letter(char c) {
-    return (c >= "А"[0] and c <= "Я"[0]) or (c == "Ё"[0]);
+    return (c >= "Рђ"[0] and c <= "РЇ"[0]) or (c == "РЃ"[0]);
 }
 
 double my_generate_random(double from, double to) {
@@ -58,8 +58,8 @@ public:
 
 class Operator_Random : public Discrete_Operator {
 public:
-    void apply(Maze &maze, Rat &rat) override; // Написано ниже
-    void set_probability(double probability) override; // Написано ниже
+    void apply(Maze &maze, Rat &rat) override; // РќР°РїРёСЃР°РЅРѕ РЅРёР¶Рµ
+    void set_probability(double probability) override; // РќР°РїРёСЃР°РЅРѕ РЅРёР¶Рµ
     string get_name() override {
         return "random";
     }
@@ -69,9 +69,9 @@ class Operator_Inversion : public Discrete_Operator {
 public:
     int max_len_of_path_a_rat_can_invert = 5;
 
-    void apply(Maze &maze, Rat &rate) override; // Написано ниже
+    void apply(Maze &maze, Rat &rate) override; // РќР°РїРёСЃР°РЅРѕ РЅРёР¶Рµ
 
-    void set_probability(double probability) override; // Написано ниже
+    void set_probability(double probability) override; // РќР°РїРёСЃР°РЅРѕ РЅРёР¶Рµ
 
     string get_name() override {
         return "inversion";
@@ -80,9 +80,9 @@ public:
 
 class Operator_Symmetry : public Discrete_Operator {
 public:
-    void apply(Maze &maze, Rat &rat) override; // Написано ниже
+    void apply(Maze &maze, Rat &rat) override; // РќР°РїРёСЃР°РЅРѕ РЅРёР¶Рµ
 
-    void set_probability(double probability) override; // Написано ниже
+    void set_probability(double probability) override; // РќР°РїРёСЃР°РЅРѕ РЅРёР¶Рµ
 
     string get_name() override {
         return "symmetry";
@@ -91,17 +91,17 @@ public:
 
 class Operator_Circle : public Discrete_Operator {
 public:
-    void apply(Maze &maze, Rat &rat) override; // Написано ниже
+    void apply(Maze &maze, Rat &rat) override; // РќР°РїРёСЃР°РЅРѕ РЅРёР¶Рµ
 
-    void set_probability(double probability) override; // Написано ниже
+    void set_probability(double probability) override; // РќР°РїРёСЃР°РЅРѕ РЅРёР¶Рµ
 
     string get_name() override {
         return "circle";
     }
 };
 
-double approximately_one = 0.9; // Для выведения медиан
-double eps = 0.001; // Для устранения неточности вычисления в double
+double approximately_one = 0.9; // Р”Р»СЏ РІС‹РІРµРґРµРЅРёСЏ РјРµРґРёР°РЅ
+double eps = 0.001; // Р”Р»СЏ СѓСЃС‚СЂР°РЅРµРЅРёСЏ РЅРµС‚РѕС‡РЅРѕСЃС‚Рё РІС‹С‡РёСЃР»РµРЅРёСЏ РІ double
 
 double INF = exp(100);
 
@@ -217,17 +217,17 @@ public:
 
     bool completed_route() {
         if (typeOfMaze == type_of_maze::nikolskaya) {
-            return (cur_cell_int == char_to_int["Р"[0]]) || (cur_cell_int == char_to_int["Т"[0]]);
+            return (cur_cell_int == char_to_int["Р "[0]]) || (cur_cell_int == char_to_int["Рў"[0]]);
         } else if (typeOfMaze == type_of_maze::chelnok) {
             return ((which_feeder_we_start_from == abs_direction::right &&
-                     cur_cell_int == char_to_int["П"[0]])
+                     cur_cell_int == char_to_int["Рџ"[0]])
                     || (which_feeder_we_start_from == abs_direction::left &&
-                        cur_cell_int == char_to_int["Н"[0]]));
+                        cur_cell_int == char_to_int["Рќ"[0]]));
         } else if (typeOfMaze == type_of_maze::second_chelnok) {
             return ((which_feeder_we_start_from == abs_direction::right &&
-                     cur_cell_int == char_to_int["Р"[0]])
+                     cur_cell_int == char_to_int["Р "[0]])
                     || (which_feeder_we_start_from == abs_direction::left &&
-                        cur_cell_int == char_to_int["Н"[0]]));
+                        cur_cell_int == char_to_int["Рќ"[0]]));
         } else if (typeOfMaze == type_of_maze::not_set) {
             cerr << "Error in bool completed_route() : typeOfMaze == not_set\n";
         } else {
@@ -311,12 +311,12 @@ public:
 
     bool route_from_input_is_correct(std::string_view s) {
         if (typeOfMaze == type_of_maze::nikolskaya) {
-            if (!((s.back() == "Р"[0]) || (s.back() == "Т"[0])) && (s.front() == "О"[0])) {
+            if (!((s.back() == "Р "[0]) || (s.back() == "Рў"[0])) && (s.front() == "Рћ"[0])) {
                 return false;
             }
             size_t counter_of_terminal_letters = 0;
             for (size_t i = 0; i < s.length(); ++i) {
-                counter_of_terminal_letters += ((s[i] == "Р"[0]) || (s[i] == "Т"[0]));
+                counter_of_terminal_letters += ((s[i] == "Р "[0]) || (s[i] == "Рў"[0]));
             }
             return counter_of_terminal_letters == 1;
         } else if (typeOfMaze == type_of_maze::chelnok) {
@@ -328,11 +328,11 @@ public:
                 --index_for_last_symbol;
             }
             char last_symb = s[index_for_last_symbol];
-            bool back_is_OK = (last_symb == "П"[0] or last_symb == "Ш"[0] or last_symb == "Ё"[0] or last_symb == "С"[0]
-                               or last_symb == "Н"[0] or last_symb == "Щ"[0] or last_symb == "Й"[0] or
-                               last_symb == "У"[0]);
-            bool beginning_is_OK = (s[0] == "П"[0] or s[0] == "Ш"[0] or s[0] == "Ё"[0] or s[0] == "С"[0]
-                                    or s[0] == "Н"[0] or s[0] == "Щ"[0] or s[0] == "Й"[0] or s[0] == "У"[0]);;
+            bool back_is_OK = (last_symb == "Рџ"[0] or last_symb == "РЁ"[0] or last_symb == "РЃ"[0] or last_symb == "РЎ"[0]
+                               or last_symb == "Рќ"[0] or last_symb == "Р©"[0] or last_symb == "Р™"[0] or
+                               last_symb == "РЈ"[0]);
+            bool beginning_is_OK = (s[0] == "Рџ"[0] or s[0] == "РЁ"[0] or s[0] == "РЃ"[0] or s[0] == "РЎ"[0]
+                                    or s[0] == "Рќ"[0] or s[0] == "Р©"[0] or s[0] == "Р™"[0] or s[0] == "РЈ"[0]);;
 
             return back_is_OK && beginning_is_OK;
         } else if (typeOfMaze == type_of_maze::second_chelnok) {
@@ -344,11 +344,11 @@ public:
                 --index_for_last_symbol;
             }
             char last_symb = s[index_for_last_symbol];
-            bool back_is_OK = (last_symb == "Р"[0] or last_symb == "Ш"[0] or last_symb == "Т"[0] or last_symb == "С"[0]
-                               or last_symb == "Н"[0] or last_symb == "Щ"[0] or last_symb == "Й"[0] or
-                               last_symb == "У"[0]);
-            bool beginning_is_OK = (s[0] == "Р"[0] or s[0] == "Ш"[0] or s[0] == "Т"[0] or s[0] == "С"[0]
-                                    or s[0] == "Н"[0] or s[0] == "Щ"[0] or s[0] == "Й"[0] or s[0] == "У"[0]);;
+            bool back_is_OK = (last_symb == "Р "[0] or last_symb == "РЁ"[0] or last_symb == "Рў"[0] or last_symb == "РЎ"[0]
+                               or last_symb == "Рќ"[0] or last_symb == "Р©"[0] or last_symb == "Р™"[0] or
+                               last_symb == "РЈ"[0]);
+            bool beginning_is_OK = (s[0] == "Р "[0] or s[0] == "РЁ"[0] or s[0] == "Рў"[0] or s[0] == "РЎ"[0]
+                                    or s[0] == "Рќ"[0] or s[0] == "Р©"[0] or s[0] == "Р™"[0] or s[0] == "РЈ"[0]);;
             return back_is_OK && beginning_is_OK;
         } else if (typeOfMaze == type_of_maze::not_set) {
             cerr << "Error in bool route_from_input_is_correct(std::string_view s) : typeOfMaze == not_set\n";
@@ -371,7 +371,7 @@ public:
     }
 
     Maze() {
-        int_to_char = "_АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯRSWZDFQVUIJGLfd";
+        int_to_char = "_РђР‘Р’Р“Р”Р•РЃР–Р—РР™РљР›РњРќРћРџР РЎРўРЈР¤РҐР¦Р§РЁР©РЄР«Р¬Р­Р®РЇRSWZDFQVUIJGLfd";
         n = int_to_char.size();
         for (size_t i = 0; i < int_to_char.length(); ++i) {
             char_to_int[int_to_char[i]] = i;
@@ -404,12 +404,12 @@ public:
 
     void print_info_about_cells_in_numbers(istream &input, ostream &output) {
         for (size_t i = 0; i < n; ++i) {
-            output << "Клетка " << i << ' ';
+            output << "РљР»РµС‚РєР° " << i << ' ';
             if (cells[i].num == 0) {
-                output << "не существует";
+                output << "РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚";
             } else {
                 unordered_map<abs_direction, int> &neighs = cells[i].neighs;
-                output << int_to_char[i] << " имеет соседей " << neighs[abs_direction::left] << ' '
+                output << int_to_char[i] << " РёРјРµРµС‚ СЃРѕСЃРµРґРµР№ " << neighs[abs_direction::left] << ' '
                        << neighs[abs_direction::up]
                        << ' ' << neighs[abs_direction::right] << ' ' << neighs[abs_direction::down];
             }
@@ -419,12 +419,12 @@ public:
 
     void print_info_about_cells_in_letters(ostream &output) {
         for (size_t i = 0; i < n; ++i) {
-            output << "Клетка " << int_to_char[i] << ' ';
+            output << "РљР»РµС‚РєР° " << int_to_char[i] << ' ';
             if (cells[i].num == 0) {
-                output << "не существует";
+                output << "РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚";
             } else {
                 unordered_map<abs_direction, int> &neighs = cells[i].neighs;
-                output << i << " имеет соседей " << int_to_char[neighs[abs_direction::left]] << ' '
+                output << i << " РёРјРµРµС‚ СЃРѕСЃРµРґРµР№ " << int_to_char[neighs[abs_direction::left]] << ' '
                        << int_to_char[neighs[abs_direction::up]]
                        << ' ' << int_to_char[neighs[abs_direction::right]] << ' '
                        << int_to_char[neighs[abs_direction::down]];
@@ -435,7 +435,7 @@ public:
 
     string choose_an_operator() {
 
-        // Проверка того, что данные корректные
+        // РџСЂРѕРІРµСЂРєР° С‚РѕРіРѕ, С‡С‚Рѕ РґР°РЅРЅС‹Рµ РєРѕСЂСЂРµРєС‚РЅС‹Рµ
         double sum_of_probs = 0;
         for (auto &pair_string_double: operators_to_probabilities) {
             double el = pair_string_double.second;
@@ -473,27 +473,27 @@ public:
         cur_generated_route = "";
         char start_char = '0';
         if (typeOfMaze == type_of_maze::nikolskaya) {
-            start_char = "Ы"[0];
+            start_char = "Р«"[0];
             roger.cur_direction = abs_direction::down;
         } else if (typeOfMaze == type_of_maze::chelnok) {
             double random_value = my_generate_random(0.0, 2.0);
             if (random_value > 1) {
-                start_char = "Н"[0];
+                start_char = "Рќ"[0];
                 roger.which_feeder_we_start_from = abs_direction::right;
                 roger.cur_direction = abs_direction::left;
             } else {
-                start_char = "П"[0];
+                start_char = "Рџ"[0];
                 roger.which_feeder_we_start_from = abs_direction::left;
                 roger.cur_direction = abs_direction::right;
             }
         } else if (typeOfMaze == type_of_maze::second_chelnok) {
             double random_value = my_generate_random(0.0, 2.0);
             if (random_value > 1) {
-                start_char = "Н"[0];
+                start_char = "Рќ"[0];
                 roger.which_feeder_we_start_from = abs_direction::right;
                 roger.cur_direction = abs_direction::left;
             } else {
-                start_char = "Р"[0];
+                start_char = "Р "[0];
                 roger.which_feeder_we_start_from = abs_direction::left;
                 roger.cur_direction = abs_direction::right;
             }
@@ -509,8 +509,8 @@ public:
         int i = 0;
         while (!roger.completed_route() && i <= 1000) {
             string chosen_operator = choose_an_operator();
-            // Здесь можно выводить информацию от том, какой дискретный оператор в данный момент работает.
-            // chosen_operator - это имя дискретного оператора, применяемого в данный момент.
+            // Р—РґРµСЃСЊ РјРѕР¶РЅРѕ РІС‹РІРѕРґРёС‚СЊ РёРЅС„РѕСЂРјР°С†РёСЋ РѕС‚ С‚РѕРј, РєР°РєРѕР№ РґРёСЃРєСЂРµС‚РЅС‹Р№ РѕРїРµСЂР°С‚РѕСЂ РІ РґР°РЅРЅС‹Р№ РјРѕРјРµРЅС‚ СЂР°Р±РѕС‚Р°РµС‚.
+            // chosen_operator - СЌС‚Рѕ РёРјСЏ РґРёСЃРєСЂРµС‚РЅРѕРіРѕ РѕРїРµСЂР°С‚РѕСЂР°, РїСЂРёРјРµРЅСЏРµРјРѕРіРѕ РІ РґР°РЅРЅС‹Р№ РјРѕРјРµРЅС‚.
             if (chosen_operator != "random" && chosen_operator != "inversion" && chosen_operator != "symmetry" &&
                 chosen_operator != "circle") {
                 cerr << "Error: operator other than random or inversion has been chosen!..\n";
@@ -567,8 +567,8 @@ public:
                 vector_of_generated_routes.push_back(route_to_be_added);
             } else {
                 if (++counter_of_wrong_routes > 0.3 * number_of_experiments) {
-                    // Если хотя бы 30% экспериментов в серии получаются странными,
-                    // то есть приводят к слишком длинным путям, мы завершаем серию экспериментов
+                    // Р•СЃР»Рё С…РѕС‚СЏ Р±С‹ 30% СЌРєСЃРїРµСЂРёРјРµРЅС‚РѕРІ РІ СЃРµСЂРёРё РїРѕР»СѓС‡Р°СЋС‚СЃСЏ СЃС‚СЂР°РЅРЅС‹РјРё,
+                    // С‚Рѕ РµСЃС‚СЊ РїСЂРёРІРѕРґСЏС‚ Рє СЃР»РёС€РєРѕРј РґР»РёРЅРЅС‹Рј РїСѓС‚СЏРј, РјС‹ Р·Р°РІРµСЂС€Р°РµРј СЃРµСЂРёСЋ СЌРєСЃРїРµСЂРёРјРµРЅС‚РѕРІ
                     flag_has_to_stop = true;
                     return;
                 }
@@ -645,8 +645,8 @@ public:
     }
 
     char process_random_move_of_rat(Rat *rat_ptr) {
-        // функция, отвечающая за перемещение крысы из текущего участка лабиринта в соседний.
-        // Возвращает char -- букву (русскую или английскую), характеризующую позицию крысы в лабиринте
+        // С„СѓРЅРєС†РёСЏ, РѕС‚РІРµС‡Р°СЋС‰Р°СЏ Р·Р° РїРµСЂРµРјРµС‰РµРЅРёРµ РєСЂС‹СЃС‹ РёР· С‚РµРєСѓС‰РµРіРѕ СѓС‡Р°СЃС‚РєР° Р»Р°Р±РёСЂРёРЅС‚Р° РІ СЃРѕСЃРµРґРЅРёР№.
+        // Р’РѕР·РІСЂР°С‰Р°РµС‚ char -- Р±СѓРєРІСѓ (СЂСѓСЃСЃРєСѓСЋ РёР»Рё Р°РЅРіР»РёР№СЃРєСѓСЋ), С…Р°СЂР°РєС‚РµСЂРёР·СѓСЋС‰СѓСЋ РїРѕР·РёС†РёСЋ РєСЂС‹СЃС‹ РІ Р»Р°Р±РёСЂРёРЅС‚Рµ
         int cur_cell_int = rat_ptr->cur_cell_int;
         abs_direction cur_direction = rat_ptr->cur_direction;
         // int trying_to_move_to_cell = cells[cur_cell_int].neighs[cur_direction];
@@ -661,7 +661,7 @@ public:
                 sum_of_probabilities_impossible += rat_ptr->probabilities_of_relative_dirs[choice];
                 rat_ptr->cur_probabilities_of_abs_dirs[new_direction] = 0;
             }
-        } // вычислили суммарную вероятность направлений, в которых двигаться невозможно
+        } // РІС‹С‡РёСЃР»РёР»Рё СЃСѓРјРјР°СЂРЅСѓСЋ РІРµСЂРѕСЏС‚РЅРѕСЃС‚СЊ РЅР°РїСЂР°РІР»РµРЅРёР№, РІ РєРѕС‚РѕСЂС‹С… РґРІРёРіР°С‚СЊСЃСЏ РЅРµРІРѕР·РјРѕР¶РЅРѕ
 
         if (abs(1 - sum_of_probabilities_impossible) < eps) {
             cerr << "vertex number " << cur_cell_int << " " << int_to_char[cur_cell_int] << '\n';
@@ -782,44 +782,44 @@ public:
 
     void print_statistical_data(ostream &o) {
         if (!vector_of_generated_routes.empty()) {
-            o << "Для смоделированной крысы:\nСреднее арифметическое длин пути = "
+            o << "Р”Р»СЏ СЃРјРѕРґРµР»РёСЂРѕРІР°РЅРЅРѕР№ РєСЂС‹СЃС‹:\nРЎСЂРµРґРЅРµРµ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРµ РґР»РёРЅ РїСѓС‚Рё = "
               << get_average_length_of_generated_routes() << '\n';
-            o << "Медианная длина пути = " << get_median_length_of_generated_routes() << '\n';
-            o << "Самые частые длины пути : ";
+            o << "РњРµРґРёР°РЅРЅР°СЏ РґР»РёРЅР° РїСѓС‚Рё = " << get_median_length_of_generated_routes() << '\n';
+            o << "РЎР°РјС‹Рµ С‡Р°СЃС‚С‹Рµ РґР»РёРЅС‹ РїСѓС‚Рё : ";
             for (size_t ans: get_most_frequent_lengths_of_generated_routes()) {
                 o << ans << "\t";
             }
-            o << "\nСреднее число ошибок: " << get_average_num_of_mistakes_for_generated_routes();
-            o << "\nМедиана числа ошибок: " << get_median_num_of_mistakes_for_generated_routes() << '\n';
-            o << "Наиболее часто встречающиеся числа ошибок: ";
+            o << "\nРЎСЂРµРґРЅРµРµ С‡РёСЃР»Рѕ РѕС€РёР±РѕРє: " << get_average_num_of_mistakes_for_generated_routes();
+            o << "\nРњРµРґРёР°РЅР° С‡РёСЃР»Р° РѕС€РёР±РѕРє: " << get_median_num_of_mistakes_for_generated_routes() << '\n';
+            o << "РќР°РёР±РѕР»РµРµ С‡Р°СЃС‚Рѕ РІСЃС‚СЂРµС‡Р°СЋС‰РёРµСЃСЏ С‡РёСЃР»Р° РѕС€РёР±РѕРє: ";
             for (auto el: get_most_frequent_num_of_mistakes_for_generated_routes()) {
                 o << el << " ";
             }
             o << '\n' << "--------------------------------------" << '\n';
         } else {
-            o << "Для смоделированной крысы ничего не печатаем,\n";
-            o << " так как vector_of_generated_routes.size() == 0\n-------------------------------------------------\n";
+            o << "Р”Р»СЏ СЃРјРѕРґРµР»РёСЂРѕРІР°РЅРЅРѕР№ РєСЂС‹СЃС‹ РЅРёС‡РµРіРѕ РЅРµ РїРµС‡Р°С‚Р°РµРј,\n";
+            o << " С‚Р°Рє РєР°Рє vector_of_generated_routes.size() == 0\n-------------------------------------------------\n";
         }
 
         if (!vector_of_real_routes.empty()) {
-            o << "Для реальной крысы:\nСреднее арифметическое длин пути = " << get_average_length_of_real_route()
+            o << "Р”Р»СЏ СЂРµР°Р»СЊРЅРѕР№ РєСЂС‹СЃС‹:\nРЎСЂРµРґРЅРµРµ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРµ РґР»РёРЅ РїСѓС‚Рё = " << get_average_length_of_real_route()
               << '\n';
-            o << "Медианная длина пути = " << get_median_length_of_real_route() << '\n';
-            o << "Самые частые длины пути : ";
+            o << "РњРµРґРёР°РЅРЅР°СЏ РґР»РёРЅР° РїСѓС‚Рё = " << get_median_length_of_real_route() << '\n';
+            o << "РЎР°РјС‹Рµ С‡Р°СЃС‚С‹Рµ РґР»РёРЅС‹ РїСѓС‚Рё : ";
             for (size_t ans: get_most_frequent_lengths_of_real_route()) {
                 o << ans << "\t";
             }
             o << '\n';
-            o << "Среднее число ошибок: " << get_average_num_of_mistakes_for_real_routes();
-            o << "\nМедиана числа ошибок: " << get_median_num_of_mistakes_for_real_routes() << '\n';
-            o << "Наиболее часто встречающиеся числа ошибок: ";
+            o << "РЎСЂРµРґРЅРµРµ С‡РёСЃР»Рѕ РѕС€РёР±РѕРє: " << get_average_num_of_mistakes_for_real_routes();
+            o << "\nРњРµРґРёР°РЅР° С‡РёСЃР»Р° РѕС€РёР±РѕРє: " << get_median_num_of_mistakes_for_real_routes() << '\n';
+            o << "РќР°РёР±РѕР»РµРµ С‡Р°СЃС‚Рѕ РІСЃС‚СЂРµС‡Р°СЋС‰РёРµСЃСЏ С‡РёСЃР»Р° РѕС€РёР±РѕРє: ";
             for (auto el: get_most_frequent_num_of_mistakes_for_real_routes()) {
                 o << el << " ";
             }
             o << '\n';
         } else {
-            o << "Для реальной крысы ничего не печатаем,";
-            o << " так как vector_of_real_routes.size() == 0\n-------------------------------------------------\n";
+            o << "Р”Р»СЏ СЂРµР°Р»СЊРЅРѕР№ РєСЂС‹СЃС‹ РЅРёС‡РµРіРѕ РЅРµ РїРµС‡Р°С‚Р°РµРј,";
+            o << " С‚Р°Рє РєР°Рє vector_of_real_routes.size() == 0\n-------------------------------------------------\n";
         }
     }
 
@@ -920,8 +920,8 @@ public:
     void read_experiment_results(istream &in, ostream &out) {
         string string_for_nothing;
         getline(in, string_for_nothing);
-        getline(in, string_for_nothing); // пропустить первые две строки файла с экспериментальными данными
-        // теперь можно читать данные
+        getline(in, string_for_nothing); // РїСЂРѕРїСѓСЃС‚РёС‚СЊ РїРµСЂРІС‹Рµ РґРІРµ СЃС‚СЂРѕРєРё С„Р°Р№Р»Р° СЃ СЌРєСЃРїРµСЂРёРјРµРЅС‚Р°Р»СЊРЅС‹РјРё РґР°РЅРЅС‹РјРё
+        // С‚РµРїРµСЂСЊ РјРѕР¶РЅРѕ С‡РёС‚Р°С‚СЊ РґР°РЅРЅС‹Рµ
         string line;
         while (getline(in, line)) {
             if (line.size() < 3) {
@@ -960,8 +960,8 @@ public:
         }
     }
 
-#define research 1 // Используется в том случае, когда нужно найти
-// оптимальные вероятности применения дискретных операторов
+#define research 1 // РСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РІ С‚РѕРј СЃР»СѓС‡Р°Рµ, РєРѕРіРґР° РЅСѓР¶РЅРѕ РЅР°Р№С‚Рё
+// РѕРїС‚РёРјР°Р»СЊРЅС‹Рµ РІРµСЂРѕСЏС‚РЅРѕСЃС‚Рё РїСЂРёРјРµРЅРµРЅРёСЏ РґРёСЃРєСЂРµС‚РЅС‹С… РѕРїРµСЂР°С‚РѕСЂРѕРІ
 
     void write_real_experiment_results_to_one_vector() {
         for (auto &pair: rats_name_to_experiment_results) {
@@ -971,9 +971,9 @@ public:
                 for (int cur_trial = 1; cur_trial < v.size(); ++cur_trial) {
                     string &cur_route = v[cur_trial];
                     if (cur_route.length() > 3) {
-                        // Здесь можно задавать ограничения на номер серии и номер эксперимента внутри серии.
-                        // Это нужно для рассмотрения обучения грызуна на различных этапах:
-                        // начальном, промежуточном и конечном.
+                        // Р—РґРµСЃСЊ РјРѕР¶РЅРѕ Р·Р°РґР°РІР°С‚СЊ РѕРіСЂР°РЅРёС‡РµРЅРёСЏ РЅР° РЅРѕРјРµСЂ СЃРµСЂРёРё Рё РЅРѕРјРµСЂ СЌРєСЃРїРµСЂРёРјРµРЅС‚Р° РІРЅСѓС‚СЂРё СЃРµСЂРёРё.
+                        // Р­С‚Рѕ РЅСѓР¶РЅРѕ РґР»СЏ СЂР°СЃСЃРјРѕС‚СЂРµРЅРёСЏ РѕР±СѓС‡РµРЅРёСЏ РіСЂС‹Р·СѓРЅР° РЅР° СЂР°Р·Р»РёС‡РЅС‹С… СЌС‚Р°РїР°С…:
+                        // РЅР°С‡Р°Р»СЊРЅРѕРј, РїСЂРѕРјРµР¶СѓС‚РѕС‡РЅРѕРј Рё РєРѕРЅРµС‡РЅРѕРј.
                         if (cur_session >= 10 && cur_trial >= 15) {
                             vector_of_real_routes.push_back(cur_route);
                         }
@@ -1012,7 +1012,7 @@ public:
                                                  best_probs_for_rel_dirs[2] / delimiter,
                                                  best_probs_for_rel_dirs[3] / delimiter);
         for (int prob_for_random = 99; prob_for_random > 0; prob_for_random -= 4) {
-            // Для отслеживания человеком процесса исследования
+            // Р”Р»СЏ РѕС‚СЃР»РµР¶РёРІР°РЅРёСЏ С‡РµР»РѕРІРµРєРѕРј РїСЂРѕС†РµСЃСЃР° РёСЃСЃР»РµРґРѕРІР°РЅРёСЏ
             cout << "Probability for random operator = " << prob_for_random << " percent\n";
             for (int prob_for_inversion = 1;
                  prob_for_random + prob_for_inversion < 100 && prob_for_inversion <= 10; prob_for_inversion += 4) {
@@ -1281,15 +1281,15 @@ void Operator_Random::set_probability(double probability) {
 }
 
 void Operator_Inversion::apply(Maze &maze, Rat &rat) {
-    // К текущему пути добавить последние len_of_path_to_inverse "русских" вершин в обратном порядке.
-    // Начинаем с предпоследней вершины.
+    // Рљ С‚РµРєСѓС‰РµРјСѓ РїСѓС‚Рё РґРѕР±Р°РІРёС‚СЊ РїРѕСЃР»РµРґРЅРёРµ len_of_path_to_inverse "СЂСѓСЃСЃРєРёС…" РІРµСЂС€РёРЅ РІ РѕР±СЂР°С‚РЅРѕРј РїРѕСЂСЏРґРєРµ.
+    // РќР°С‡РёРЅР°РµРј СЃ РїСЂРµРґРїРѕСЃР»РµРґРЅРµР№ РІРµСЂС€РёРЅС‹.
 
     int len_of_path_to_invert = round(my_generate_random(0.5 + eps, max_len_of_path_a_rat_can_invert + 0.5 - eps));
     int len_of_path_to_invert_saved = len_of_path_to_invert;
 
     string &path = maze.cur_generated_route;
     int len_of_path = int(path.length());
-    int i = len_of_path - 2; // начинаем с предпоследней вершины
+    int i = len_of_path - 2; // РЅР°С‡РёРЅР°РµРј СЃ РїСЂРµРґРїРѕСЃР»РµРґРЅРµР№ РІРµСЂС€РёРЅС‹
     if (i < 1) {
         return;
     }
@@ -1364,9 +1364,9 @@ void Operator_Symmetry::apply(Maze &maze, Rat &rat) {
                                                                                               char_to_int[path[i + 1]]);
     switched_direction = get_opposite_direction(switched_direction);
 
-    // Грызун продолжает идти в этом направлении, пока не может повернуть в симметричную сторону.
-    // При этом он должен сделать хотя бы одно продвижение в направлении cur_dir, если это возможно.
-    // Только после этого грызун поворачивает
+    // Р“СЂС‹Р·СѓРЅ РїСЂРѕРґРѕР»Р¶Р°РµС‚ РёРґС‚Рё РІ СЌС‚РѕРј РЅР°РїСЂР°РІР»РµРЅРёРё, РїРѕРєР° РЅРµ РјРѕР¶РµС‚ РїРѕРІРµСЂРЅСѓС‚СЊ РІ СЃРёРјРјРµС‚СЂРёС‡РЅСѓСЋ СЃС‚РѕСЂРѕРЅСѓ.
+    // РџСЂРё СЌС‚РѕРј РѕРЅ РґРѕР»Р¶РµРЅ СЃРґРµР»Р°С‚СЊ С…РѕС‚СЏ Р±С‹ РѕРґРЅРѕ РїСЂРѕРґРІРёР¶РµРЅРёРµ РІ РЅР°РїСЂР°РІР»РµРЅРёРё cur_dir, РµСЃР»Рё СЌС‚Рѕ РІРѕР·РјРѕР¶РЅРѕ.
+    // РўРѕР»СЊРєРѕ РїРѕСЃР»Рµ СЌС‚РѕРіРѕ РіСЂС‹Р·СѓРЅ РїРѕРІРѕСЂР°С‡РёРІР°РµС‚
     if (maze.cells[rat.cur_cell_int].neighs[cur_dir] != 0) {
         int new_cell_int = maze.cells[char_to_int[path.back()]].neighs[cur_dir];
         rat.cur_direction = cur_dir;
@@ -1398,7 +1398,7 @@ void Operator_Circle::set_probability(double probability) {
 void Operator_Circle::apply(Maze &maze, Rat &rat) {
     if (maze.cells[rat.cur_cell_int].neighs[rat.cur_direction] == 0) {
 #ifdef need_to_write_additional_info
-        cout << "\nСircle operator hadn't been applied. We are in an impasse\n";
+        cout << "\nРЎircle operator hadn't been applied. We are in an impasse\n";
 #endif
         return;
     }
@@ -1415,7 +1415,7 @@ void Operator_Circle::apply(Maze &maze, Rat &rat) {
     if (maze.cells[rat.cur_cell_int].neighs[abs_dir_from_turning_right] == 0 &&
         maze.cells[rat.cur_cell_int].neighs[abs_dir_from_turning_left] == 0) {
 #ifdef need_to_write_additional_info
-        cout << "\nСircle operator is done. We are in an impasse\n";
+        cout << "\nРЎircle operator is done. We are in an impasse\n";
 #endif
         return;
     }
@@ -1431,12 +1431,12 @@ void Operator_Circle::apply(Maze &maze, Rat &rat) {
             turning = relative_direction::to_right;
         }
     }
-    // второй и третий процессы вида "поворот + движение в новом направлении до упора"
+    // РІС‚РѕСЂРѕР№ Рё С‚СЂРµС‚РёР№ РїСЂРѕС†РµСЃСЃС‹ РІРёРґР° "РїРѕРІРѕСЂРѕС‚ + РґРІРёР¶РµРЅРёРµ РІ РЅРѕРІРѕРј РЅР°РїСЂР°РІР»РµРЅРёРё РґРѕ СѓРїРѕСЂР°"
     for (int i = 0; i < 2; ++i) {
         rat.cur_direction = determine_new_direction(rat.cur_direction, turning);
         if (maze.cells[rat.cur_cell_int].neighs[rat.cur_direction] == 0) {
 #ifdef need_to_write_additional_info
-            cout << "\nСircle operator is done. We are in an impasse\n";
+            cout << "\nРЎircle operator is done. We are in an impasse\n";
 #endif
             return;
         }
@@ -1455,7 +1455,7 @@ int main() {
     setlocale(LC_ALL, "ru");
     Maze maze = Maze();
 
-    // Для проведения виртуальных экспериментов следует редактировать эти строчки
+    // Р”Р»СЏ РїСЂРѕРІРµРґРµРЅРёСЏ РІРёСЂС‚СѓР°Р»СЊРЅС‹С… СЌРєСЃРїРµСЂРёРјРµРЅС‚РѕРІ СЃР»РµРґСѓРµС‚ СЂРµРґР°РєС‚РёСЂРѕРІР°С‚СЊ СЌС‚Рё СЃС‚СЂРѕС‡РєРё
     maze.typeOfMaze = type_of_maze::nikolskaya;
     bool caffeine = false;
     //
@@ -1477,8 +1477,8 @@ int main() {
         exit(1);
     }
 
-    std::ofstream out;          // поток для записи
-    out.open("output.txt"); // открываем файл для записи
+    std::ofstream out;          // РїРѕС‚РѕРє РґР»СЏ Р·Р°РїРёСЃРё
+    out.open("output.txt"); // РѕС‚РєСЂС‹РІР°РµРј С„Р°Р№Р» РґР»СЏ Р·Р°РїРёСЃРё
     if (out.is_open()) {
         cout << "File for output opened successfully!\n";
     } else {
@@ -1523,7 +1523,7 @@ int main() {
     Rat roger;
 
 #ifdef research
-    maze.set_optimal_probabilities(roger); // проверить эту функцию
+    maze.set_optimal_probabilities(roger); // РїСЂРѕРІРµСЂРёС‚СЊ СЌС‚Сѓ С„СѓРЅРєС†РёСЋ
 #endif
 #ifdef test_other
     maze.construct_map_from_name_to_operator();
@@ -1534,9 +1534,9 @@ int main() {
     maze.conduct_series_of_experiments_memorizing_routes(3, roger);
 #endif
     maze.print_statistical_data(out);
-    out << "\n\n\n Печатаем реальные пути\n\n\n";
+    out << "\n\n\n РџРµС‡Р°С‚Р°РµРј СЂРµР°Р»СЊРЅС‹Рµ РїСѓС‚Рё\n\n\n";
     maze.print_all_real_routes(out);
-    out << "\n\n\n Теперь печатаем cгенерированные пути\n\n\n";
+    out << "\n\n\n РўРµРїРµСЂСЊ РїРµС‡Р°С‚Р°РµРј cРіРµРЅРµСЂРёСЂРѕРІР°РЅРЅС‹Рµ РїСѓС‚Рё\n\n\n";
     maze.print_all_generated_routes(out);
     in_for_experiments.close();
     out.close();
